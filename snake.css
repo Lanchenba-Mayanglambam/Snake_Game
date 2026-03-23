@@ -1,0 +1,40 @@
+body {
+            margin: 0;
+            background: linear-gradient(135deg, #20a0af, #406aaa, #4b226b);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Segoe UI', sans-serif;
+            color: rgb(255, 255, 255);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        canvas {
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+            border: 2px solid rgb(72, 171, 217);
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 12px 25px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(45deg, #00ffcc, #00cc99);
+            color: black;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            background: linear-gradient(45deg, #00ffaa, #00ddaa);
+        }
